@@ -1,7 +1,7 @@
 import sqlite3
 
 # Создание подключения и курсора
-with sqlite3.connect('check.db') as connection:
+with sqlite3.connect('person.db') as connection:
     cursor = connection.cursor()
 
     cursor.execute('''CREATE TABLE IF NOT EXISTS Departments (
